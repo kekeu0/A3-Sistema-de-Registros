@@ -7,7 +7,7 @@ public class DB {
             return DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/diario?allowPublicKeyRetrieval=true&useSSL=false",
                     "root",
-                    "lpk2540*db"
+                    " "
             );
         } catch (ClassNotFoundException ex) {
             System.out.println("Driver do banco de dados não localizado.");
